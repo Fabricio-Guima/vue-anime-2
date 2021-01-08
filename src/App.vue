@@ -6,6 +6,7 @@
         <form action="" class="search-box" @submit.prevent="HandleSearch">
             <input type="search" v-model="search_query" class="search-field" placeholder="Procure por um anime..." required>
         </form>
+        kkkkkkkk!
     </header>
     <main>
       <div class="cards" v-if="animeList.length > 0">
